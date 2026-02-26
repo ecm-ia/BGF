@@ -25,6 +25,7 @@ import paoFornoImg from "./images/paonoforno.jpg";
 import massaFermentandoImg from "./images/massafermentando.jpg";
 import paoSovandoVid from "./images/pao-sovando.mp4";
 
+
 const products = [
   {
     id: 1,
