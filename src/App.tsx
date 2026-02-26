@@ -17,6 +17,7 @@ import {
   Heart
 } from "lucide-react";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import paoFrancesImg from "./images/paofrances.jpg";
 import paoMilhoImg from "./images/paodemilho.jpg";
 import paoAustralianoImg from "./images/paoaustraliano.jpg";
@@ -498,6 +499,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
