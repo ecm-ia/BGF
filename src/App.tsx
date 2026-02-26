@@ -17,14 +17,15 @@ import {
   Heart
 } from "lucide-react";
 import { useState } from "react";
-import paoFrancesImg from "./images/paofrances.jpg";
-import paoMilhoImg from "./images/paodemilho.jpg";
-import paoAustralianoImg from "./images/paoaustraliano.jpg";
-import pizzaImg from "./images/pizza.jpg";
-import paoFornoImg from "./images/paonoforno.jpg";
-import massaFermentandoImg from "./images/massafermentando.jpg";
-import paoSovandoVid from "./images/pao-sovando.mp4";
 
+// Static paths from the public/images directory
+const paoFrancesImg = "/images/paofrances.jpg";
+const paoMilhoImg = "/images/paodemilho.jpg";
+const paoAustralianoImg = "/images/paoaustraliano.jpg";
+const pizzaImg = "/images/pizza.jpg";
+const paoFornoImg = "/images/paonoforno.jpg";
+const massaFermentandoImg = "/images/massafermentando.jpg";
+const paoSovandoVid = "/images/pao-sovando.mp4";
 
 const products = [
   {
