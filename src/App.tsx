@@ -19,13 +19,13 @@ import {
 import { useState } from "react";
 
 // Static paths from the public/images directory
-const paoFrancesImg = "./images/paofrances.jpg";
-const paoMilhoImg = "images/paodemilho.jpg";
-const paoAustralianoImg = "images/paoaustraliano.jpg";
-const pizzaImg = "images/pizza.jpg";
-const paoFornoImg = "images/paonoforno.jpg";
-const massaFermentandoImg = "images/massafermentando.jpg";
-const paoSovandoVid = "images/pao-sovando.mp4";
+const paoFrancesImg = "/images/paofrances.jpg";
+const paoMilhoImg = "/images/paodemilho.jpg";
+const paoAustralianoImg = "/images/paoaustraliano.jpg";
+const pizzaImg = "/images/pizza.jpg";
+const paoFornoImg = "/images/paonoforno.jpg";
+const massaFermentandoImg = "/images/massafermentando.jpg";
+const paoSovandoVid = "/images/pao-sovando.mp4";
 
 const products = [
   {
